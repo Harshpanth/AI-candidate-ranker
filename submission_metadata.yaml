@@ -1,29 +1,27 @@
-# Redrob Hackathon — Submission Metadata
+# AI Candidate Ranker — Project Metadata
 #
-# Generated from submission_metadata_template.yaml
+# Solo project by Harsh Panth
 
 # ============================================================================
-# Team identity
+# Project identity
 # ============================================================================
-team_name: "CHANGE_ME"  # <-- Replace with your team name
+team_name: "Harsh Panth"
 
 primary_contact:
-  name: "CHANGE_ME"              # <-- Replace with your name
-  email: "CHANGE_ME@example.com" # <-- Replace with your email
-  phone: "+91-XXXXXXXXXX"        # <-- Replace with your phone
+  name: "Harsh Panth"
+  email: "harshpanth04@gmail.com"
 
 team_members:
-  - name: "CHANGE_ME"            # <-- Replace with your name
-    email: "CHANGE_ME@example.com"
-    role: "ML Engineer"
-  # Add more members as needed
+  - name: "Harsh Panth"
+    email: "harshpanth04@gmail.com"
+    role: "ML Engineer / Solo Developer"
 
 # ============================================================================
 # Code and reproducibility
 # ============================================================================
-github_repo: "CHANGE_ME"  # <-- Replace with your GitHub repo URL
+github_repo: "https://github.com/Harshpanth/AI-candidate-ranker"
 
-sandbox_link: "CHANGE_ME"  # <-- Replace with your sandbox URL (HF Spaces, Streamlit, etc.)
+sandbox_link: "https://huggingface.co/spaces/Harshpanth/AI-candidate-ranker"  # Update after HuggingFace deployment
 
 reproduce_command: "python rank.py --input ./candidates.jsonl --output ./submission.csv"
 # Runs in ~13s on CPU with 16GB RAM and no network.
